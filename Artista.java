@@ -14,6 +14,11 @@ public class Artista {
                 '}';
     }
 
+    public void setNombreArtista(String nuevoNombre) {
+	this.nombreArtista = nuevoNombre;
+	//Este metodo es el que ha añadido NOLO :D
+}
+
     public String getNombreArtista() {
         return nombreArtista;
 	//Esto es un comentario
